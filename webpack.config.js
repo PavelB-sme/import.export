@@ -40,5 +40,6 @@ module.exports = {
         devServer: {
             static: path.join(__dirname, 'dist'),
             hot: true,
+            watchFiles: ['src/**/*.html']
     },
 }
